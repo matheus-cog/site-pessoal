@@ -18,6 +18,8 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon());
 });
 
+document.getElementById("theme-button").click();
+
 function getTimeDifference(date){
     let currentDate = new Date();
     let referenceDate = new Date(date);
