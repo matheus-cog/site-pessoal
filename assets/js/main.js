@@ -18,8 +18,6 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon());
 });
 
-document.getElementById("theme-button").click();
-
 function getTimeDifference(date){
     let currentDate = new Date();
     let referenceDate = new Date(date);
@@ -46,3 +44,7 @@ sr.reveal(`.profile_social`, { delay: 700 });
 sr.reveal(`.profile_info-group`, { interval: 100, delay: 700 });
 sr.reveal(`.filters_content`, { delay: 800 });
 sr.reveal(`.filters`, { delay: 900 });
+
+window.onload = function(){
+    document.getElementById("theme-button").click();
+}
