@@ -143,8 +143,8 @@ body.dark-theme {
 }
 
 .profile_perfil {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   background: linear-gradient(180deg, 
     hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
     hsla(var(--hue), var(--sat), var(--lig), .2) 100%
@@ -185,7 +185,7 @@ body.dark-theme {
 }
 
 .profile_social-link {
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   color: var(--title-color);
   transition: .3s;
 }
@@ -306,7 +306,7 @@ body.dark-theme {
   background-color: hsl(var(--hue), 8%, 44%);
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .container {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -321,14 +321,14 @@ body.dark-theme {
   }
 }
 
-@media screen and (min-width: 576px){
+@media screen and (min-width: 576px) {
   .filters_content {
     width: 332px;
     margin: 3rem auto;
   }
 }
 
-@media screen and (min-width: 776px){
+@media screen and (min-width: 776px) {
   .skills_content {
     grid-template-columns: repeat(2, 332px);
     justify-content: center;
@@ -336,7 +336,7 @@ body.dark-theme {
   }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
   .container {
     margin-left: auto;
     margin-right: auto;

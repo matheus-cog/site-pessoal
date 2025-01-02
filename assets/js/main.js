@@ -18,7 +18,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon());
 });
 
-function getTimeDifference(date){
+function getTimeDifference(date) {
     let currentDate = new Date();
     let referenceDate = new Date(date);
     let resultYears = currentDate.getFullYear() - referenceDate.getFullYear();

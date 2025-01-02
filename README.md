@@ -1,7 +1,7 @@
 # matheusguedes.com
-## [Acesse!](https://matheusguedes.com)
-### Este é o projeto presente em meu site pessoal.
+## [Access!](https://matheusguedes.com)
+### This is the project on my personal website.
 
-- Contém animações feitas com CSS.
-- Inclui modo claro e escuro.
-- Feito com a metodologia Mobile First, depois desktop.
+- It contains animations made with CSS.
+- It includes light and dark mode.
+- Made with the Mobile First methodology, then desktop.
